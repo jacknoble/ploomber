@@ -54,7 +54,7 @@ backend for each database engine, there's a generic backend that stores
 metadata in a `SQLite` database. Alternatively, SQL Products can skip saving
 metadata, but they lose incremental builds.
 
-Tasks may generate more than one task. `MetaProuct`
+Tasks may generate more than one task. `MetaProduct`
 (`src/ploomber/products/metaproduct.py`) implements a Product-like interface
 that can hold more than one Product. This way, `Task` can interact with it
 as if it was a single task.
